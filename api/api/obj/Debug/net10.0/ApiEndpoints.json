@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "api.Controllers.TourController",
+    "Method": "Obtener",
+    "RelativePath": "api/Tour",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API.Dtos.TourObtenerDto",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Controllers.TourController",
+    "Method": "Crear",
+    "RelativePath": "api/Tour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API.Dtos.TourCrearDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Controllers.TourController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Tour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API.Dtos.TourActualizarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.Controllers.TourController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Tour",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API.Dtos.TourEliminarDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
